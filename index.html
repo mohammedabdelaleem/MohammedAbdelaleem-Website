@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mohammed Abdelaleem - Full Stack Developer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <!-- Logo -->
+        <a href="#" class="nav-logo">
+          <div class="logo-icon">
+            <i class="fas fa-code"></i>
+          </div>
+          <span>Mohammed</span>
+        </a>
+
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#home" class="nav-link active">
+              <i class="fas fa-home"></i>
+              Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">
+              <i class="fas fa-user"></i>
+              About
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link">
+              <i class="fas fa-cogs"></i>
+              Skills
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link">
+              <i class="fas fa-folder-open"></i>
+              Projects
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">
+              <i class="fas fa-envelope"></i>
+              Contact
+            </a>
+          </li>
+        </ul>
+
+        <button
+          class="mobile-menu-btn"
+          id="mobileMenuBtn"
+          aria-label="Open Menu"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </nav>
+
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+    <div class="sidebar" id="sidebar">
+      <div class="sidebar-header">
+        <div class="sidebar-logo">
+          <div class="logo-icon">
+            <i class="fas fa-code"></i>
+          </div>
+          <span>Mohammed</span>
+        </div>
+        <button
+          class="sidebar-close"
+          id="sidebarClose"
+          aria-label="Close Menu"
+          type="button"
+        >
+          <!-- Using CSS ::before for the × symbol instead of FontAwesome icon -->
+        </button>
+      </div>
+
+      <!-- Sidebar Menu -->
+      <div class="sidebar-menu">
+        <ul>
+          <li>
+            <a href="#home" class="nav-link active">
+              <i class="fas fa-home"></i>
+              <span>Home</span>
+            </a>
+          </li>
+          <li>
+            <a href="#about" class="nav-link">
+              <i class="fas fa-user"></i>
+              <span>About</span>
+            </a>
+          </li>
+          <li>
+            <a href="#skills" class="nav-link">
+              <i class="fas fa-cogs"></i>
+              <span>Skills</span>
+            </a>
+          </li>
+          <li>
+            <a href="#projects" class="nav-link">
+              <i class="fas fa-folder-open"></i>
+              <span>Projects</span>
+            </a>
+          </li>
+          <li>
+            <a href="#contact" class="nav-link">
+              <i class="fas fa-envelope"></i>
+              <span>Contact</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Sidebar Overlay -->
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar">
+      <!-- Sidebar Header -->
+      <div class="sidebar-header">
+        <div class="sidebar-logo">
+          <div class="logo-icon">
+            <i class="fas fa-code"></i>
+          </div>
+          <span>Mohammed</span>
+        </div>
+        <button class="sidebar-close" id="sidebarClose" aria-label="Close Menu">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+
+      <!-- Sidebar Menu -->
+      <div class="sidebar-menu">
+        <ul>
+          <li>
+            <a href="#home" class="nav-link active">
+              <i class="fas fa-home"></i>
+              <span>Home</span>
+            </a>
+          </li>
+          <li>
+            <a href="#about" class="nav-link">
+              <i class="fas fa-user"></i>
+              <span>About</span>
+            </a>
+          </li>
+          <li>
+            <a href="#skills" class="nav-link">
+              <i class="fas fa-cogs"></i>
+              <span>Skills</span>
+            </a>
+          </li>
+          <li>
+            <a href="#projects" class="nav-link">
+              <i class="fas fa-folder-open"></i>
+              <span>Projects</span>
+            </a>
+          </li>
+          <li>
+            <a href="#contact" class="nav-link">
+              <i class="fas fa-envelope"></i>
+              <span>Contact</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Sidebar Footer -->
+      <div class="sidebar-footer">
+        <a href="#contact" class="sidebar-cta">
+          <i class="fas fa-handshake"></i>
+          <span>Hire Me</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Sidebar Overlay -->
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar">
+      <!-- Sidebar Header -->
+      <div class="sidebar-header">
+        <div class="sidebar-logo">
+          <div class="logo-icon">
+            <i class="fas fa-code"></i>
+          </div>
+          <span>Mohammed</span>
+        </div>
+        <button class="sidebar-close" id="sidebarClose">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+
+      <!-- Sidebar Menu -->
+      <div class="sidebar-menu">
+        <ul>
+          <li>
+            <a href="#home" class="nav-link active">
+              <i class="fas fa-home"></i>
+              <span>Home</span>
+            </a>
+          </li>
+          <li>
+            <a href="#about" class="nav-link">
+              <i class="fas fa-user"></i>
+              <span>About</span>
+            </a>
+          </li>
+          <li>
+            <a href="#skills" class="nav-link">
+              <i class="fas fa-cogs"></i>
+              <span>Skills</span>
+            </a>
+          </li>
+          <li>
+            <a href="#projects" class="nav-link">
+              <i class="fas fa-folder-open"></i>
+              <span>Projects</span>
+            </a>
+          </li>
+          <li>
+            <a href="#contact" class="nav-link">
+              <i class="fas fa-envelope"></i>
+              <span>Contact</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Sidebar Footer -->
+      <div class="sidebar-footer">
+        <a href="#contact" class="sidebar-cta">
+          <i class="fas fa-handshake"></i>
+          <span>Hire Me</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <!-- Animated Background -->
+      <div class="animated-bg">
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+      </div>
+
+      <div class="container">
+        <div class="hero-content">
+          <!-- Text Side -->
+          <div class="hero-text">
+            <div class="hero-intro">
+              <div class="intro-badge">
+                <span>👋 Hello, I'm</span>
+              </div>
+              <h1>Mohammed Abdelaleem</h1>
+              <div class="typing-text">
+                <span>Full Stack Developer</span>
+              </div>
+            </div>
+
+            <div class="hero-skills">
+              <div class="skill-tag">.NET Developer</div>
+              <div class="skill-tag">React Expert</div>
+              <div class="skill-tag">SQL Server</div>
+            </div>
+
+            <div class="hero-actions">
+              <a href="#contact" class="btn-primary">
+                <span>Let's Talk</span>
+                <i class="fas fa-paper-plane"></i>
+              </a>
+              <a href="#projects" class="btn-secondary">
+                <span>View Projects</span>
+                <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Image Side -->
+          <div class="hero-image">
+            <div class="image-container">
+              <div class="image-wrapper">
+                <img src="./Images/ME.png" alt="Mohammed Abdelaleem" />
+              </div>
+              <div class="experience-card">
+                <div class="exp-icon">🚀</div>
+                <div class="exp-text">
+                  <span>1+ Years</span>
+                  <p>Experience</p>
+                </div>
+              </div>
+              <div class="tech-card">
+                <i class="fab fa-dotnet"></i>
+              </div>
+              <div class="tech-card">
+                <i class="fab fa-React"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Section -->
+    <section id="about" class="about-section">
+      <div class="container">
+        <div class="about-header">
+          <h2 class="section-title">About Me</h2>
+          <div class="title-separator">
+            <span></span>
+            <i class="fas fa-code"></i>
+            <span></span>
+          </div>
+        </div>
+
+        <div class="about-content">
+          <!-- Main Introduction -->
+          <div class="about-intro">
+            <div class="about-text">
+              <p class="lead-text">
+                Specialize in delivering high-quality, scalable, and responsive
+                web applications. As expert Full Stack Web Developers, we
+                combine modern front-end and back-end technologies to create
+                seamless, user-friendly digital experiences tailored to your
+                business needs.
+              </p>
+            </div>
+          </div>
+
+          <!-- Expertise Areas -->
+          <div class="expertise-grid">
+            <h3 class="expertise-title">Our Expertise</h3>
+
+            <!-- Frontend Card -->
+            <div class="expertise-card">
+              <div class="card-icon">
+                <i class="fas fa-laptop-code"></i>
+              </div>
+              <h4>Front-End Development</h4>
+              <p>
+                We craft visually appealing and highly responsive designs using
+                modern technologies.
+              </p>
+              <div class="tech-stack">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">Bootstrap</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">TypeScript</span>
+                <span class="tech-tag">React</span>
+              </div>
+            </div>
+
+            <!-- Backend Card -->
+            <div class="expertise-card">
+              <div class="card-icon">
+                <i class="fas fa-server"></i>
+              </div>
+              <h4>Back-End Development</h4>
+              <p>
+                Building robust, secure, and high-performing back-end
+                architectures.
+              </p>
+              <div class="tech-stack">
+                <span class="tech-tag">C#</span>
+                <span class="tech-tag">ASP.NET Core</span>
+                <span class="tech-tag">Web API</span>
+                <span class="tech-tag">EF Core</span>
+                <span class="tech-tag">SQL Server</span>
+                <span class="tech-tag">LINQ</span>
+              </div>
+            </div>
+
+            <!-- Best Practices Card -->
+            <div class="expertise-card">
+              <div class="card-icon">
+                <i class="fas fa-shield-alt"></i>
+              </div>
+              <h4>Best Practices & Principles</h4>
+              <p>
+                Following industry standards and SOLID principles for clean,
+                maintainable code.
+              </p>
+              <ul class="practices-list">
+                <li><i class="fas fa-check"></i> SOLID Principles</li>
+                <li><i class="fas fa-check"></i> Clean Architecture</li>
+                <li><i class="fas fa-check"></i> Code Quality</li>
+                <li><i class="fas fa-check"></i> Best Practices</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Call to Action -->
+          <div class="about-cta">
+            <p>
+              Whether you need a dynamic web application, enterprise software,
+              or a fully responsive website, we bring expertise and innovation
+              to every project.
+            </p>
+            <a href="#contact" class="cta-button">
+              Let's Build Something Amazing
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3>Backend Development</h3>
+            <div class="skill-items">
+              <div class="skill-item">
+                <i class="fab fa-dotnet"></i>
+                <span>.NET Core</span>
+                <div class="progress-bar">
+                  <div class="progress" style="width: 95%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <i class="fas fa-database"></i>
+                <span>SQL Server</span>
+                <div class="progress-bar">
+                  <div class="progress" style="width: 90%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <i class="fas fa-server"></i>
+                <span>RESTful APIs</span>
+                <div class="progress-bar">
+                  <div class="progress" style="width: 92%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3>Frontend Development</h3>
+            <div class="skill-items">
+              <div class="skill-item">
+                <i class="fab fa-React"></i>
+                <span>React</span>
+                <div class="progress-bar">
+                  <div class="progress" style="width: 90%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <i class="fab fa-js"></i>
+                <span>TypeScript</span>
+                <div class="progress-bar">
+                  <div class="progress" style="width: 88%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <i class="fab fa-sass"></i>
+                <span>SASS/CSS</span>
+                <div class="progress-bar">
+                  <div class="progress" style="width: 85%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Featured Projects</h2>
+          <div class="title-separator">
+            <span></span>
+            <i class="fas fa-code-branch"></i>
+            <span></span>
+          </div>
+          <p class="section-subtitle">Explore some of my recent work</p>
+        </div>
+
+        <div class="projects-grid">
+          <div class="animated-project-card">
+            <div class="project-image-container">
+              <img
+                src="./Images/Home.jpeg"
+                alt="Smart Store"
+                class="project-image"
+              />
+            </div>
+            <h3 class="project-title">Smart Store</h3>
+            <a
+              href="https://youtu.be/_wnARJr9ryA?si=c0wEWdegxt-yf73B"
+              class="demo-btn"
+              target="_blank"
+            >
+              View Demo <i class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact-section">
+      <div id="contact" class="container">
+        <h2 class="section-title">Let's Connect</h2>
+        <p class="section-subtitle">
+          I'm always open to new opportunities and collaborations
+        </p>
+
+        <div class="contact-wrapper">
+          <div class="contact-info">
+            <div class="contact-method" data-aos="fade-up" data-aos-delay="100">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div>
+                <h3>Email</h3>
+                <a href="mailto:mohammedabdelaleem20@gmail.com"
+                  >mohammedabdelaleem20@gmail.com</a
+                >
+              </div>
+            </div>
+
+            <div class="contact-method" data-aos="fade-up" data-aos-delay="200">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div>
+                <h3>Phone</h3>
+                <a href="tel:+201030632293">+20 1030632293</a>
+              </div>
+            </div>
+
+            <div class="contact-method" data-aos="fade-up" data-aos-delay="300">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div>
+                <h3>Location</h3>
+                <p>Cairo, Egypt</p>
+              </div>
+            </div>
+          </div>
+
+          <form
+            class="contact-form"
+            action="https://formsubmit.co/mohammedabdelaleem20@gmail.com"
+            method="POST"
+          >
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_template" value="table" />
+            <input
+              type="hidden"
+              name="_next"
+              value="https://yourwebsite.com/thank-you.html"
+            />
+            <!-- اختياري -->
+
+            <div class="form-group">
+              <input type="text" name="name" placeholder="Your Name" required />
+              <span class="focus-border"></span>
+            </div>
+
+            <div class="form-group">
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <span class="focus-border"></span>
+            </div>
+
+            <div class="form-group">
+              <input type="text" name="subject" placeholder="Subject" />
+              <span class="focus-border"></span>
+            </div>
+
+            <div class="form-group">
+              <textarea
+                name="message"
+                placeholder="Your Message"
+                rows="5"
+                required
+              ></textarea>
+              <span class="focus-border"></span>
+            </div>
+
+            <button type="submit" class="submit-btn">
+              <span>Send Message</span>
+              <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+
+        <div class="social-links">
+          <a
+            href="https://www.linkedin.com/in/mohammed-abd-el-aleem-b100992a3/"
+            target="_blank"
+            aria-label="LinkedIn"
+            data-aos="zoom-in"
+            data-aos-delay="100"
+          >
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a
+            href="https://github.com/mohammedabdelaleem"
+            target="_blank"
+            aria-label="GitHub"
+            data-aos="zoom-in"
+            data-aos-delay="200"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+          <!-- <a href="https://youtu.be/_wnARJr9ryA?si=-dof-XrhBBsaEJQM" target="_blank" aria-label="YouTube" data-aos="zoom-in" data-aos-delay="300">
+        <i class="fab fa-youtube"></i>
+      </a> -->
+        </div>
+      </div>
+    </section>
+
+    <footer class="professional-footer">
+      <div class="footer-background"></div>
+
+      <div class="footer-container">
+        <div class="footer-content">
+          <div class="footer-identity">
+            <div class="footer-logo-box">
+              <div class="logo-icon">
+                <i class="fas fa-code"></i>
+              </div>
+              <h1 class="menu-title" style="font-size: 20px">
+                Mohammed Abdelaleem
+              </h1>
+            </div>
+
+            <div class="footer-social-section">
+              <h4 class="social-heading">Let's Connect</h4>
+              <p class="social-description">Follow me on social media</p>
+
+              <div class="social-icons-wrapper">
+                <a
+                  href="https://www.linkedin.com/in/mohammed-abd-el-aleem-b100992a3/"
+                  class="social-button linkedin-btn"
+                  target="_blank"
+                >
+                  <div class="social-icon-box">
+                    <i class="fab fa-linkedin-in"></i>
+                  </div>
+                  <span class="social-hint">LinkedIn</span>
+                </a>
+                <!-- <a href="https://youtu.be/QIaXNfZQyT0?si=CaAc_RILwhHsj-pq" class="social-button youtube-btn" target="_blank">
+                                <div class="social-icon-box">
+                                    <i class="fab fa-youtube"></i>
+                                </div>
+                                <span class="social-hint">YouTube</span>
+                            </a> -->
+                <a
+                  href="https://github.com/mohammedabdelaleem"
+                  class="social-button github-btn"
+                  target="_blank"
+                >
+                  <div class="social-icon-box">
+                    <i class="fab fa-github"></i>
+                  </div>
+                  <span class="social-hint">GitHub</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-navigation">
+            <div class="footer-menu-column">
+              <h4 class="menu-title">Navigation</h4>
+              <ul class="footer-menu-list">
+                <li><a href="#home" class="menu-link">Home</a></li>
+                <li><a href="#about" class="menu-link">About</a></li>
+                <li><a href="#services" class="menu-link">Services</a></li>
+                <li><a href="#portfolio" class="menu-link">Portfolio</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-menu-column">
+              <h4 class="menu-title">Services</h4>
+              <ul class="footer-menu-list">
+                <li><a href="#web" class="menu-link">Web Development</a></li>
+                <li><a href="#mobile" class="menu-link">RESTful API</a></li>
+                <li><a href="#ui" class="menu-link">E-commerce Platform</a></li>
+                <li><a href="#consulting" class="menu-link">Consulting</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-menu-column">
+              <h4 class="menu-title">Contact</h4>
+              <ul class="contact-details-list">
+                <li class="contact-item">
+                  <i class="fas fa-map-marker-alt contact-icon"></i>
+                  <span>Cairo, Egypt</span>
+                </li>
+                <li class="contact-item">
+                  <i class="fas fa-phone contact-icon"></i>
+                  <a href="tel:+20103281124" class="contact-link"
+                    >+20 103281124</a
+                  >
+                </li>
+                <li class="contact-item">
+                  <i class="fas fa-envelope contact-icon"></i>
+                  <a
+                    href="mailto:mohammedabdelaleem20@gmail.com"
+                    class="contact-link"
+                    >mohammedabdelaleem20@gmail.com</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-copyright">
+          <p>&copy; Copyright Mohammed Abdelaleem. All rights reserved 2024</p>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  </body>
+</html>
